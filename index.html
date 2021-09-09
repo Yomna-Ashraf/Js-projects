@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper || Simple</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+<!----------------NavBar------------------->   
+      <nav>
+        <div class="nav-center">
+          <h4>CodingNerd</span></h4>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>          
+          </ul>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-behance"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-sketch"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="nan-btn">
+          <button class="side-toggle"><i class="material-icons" id = "side-sh" style="font-size:36px;color:rgb(36, 149, 255)
+            ">playlist_add	</i></button>
+
+          <button class="nav-toggle"><i class="material-icons" id="hid-nav">format_list_bulleted</i></button>
+          </div>
+        </div>
+      </nav>
+   
+      <main>
+       
+        </div>
+<!---------------ShrinkAndCollapse----------------------->      
+        <div class="container-sh">
+          <h6>Add Items</h6>
+          <!--<h1>Add Items</h1>-->
+
+          <div class="text-input">
+              <input type="text" id="fname" name="fname">
+              <input type="submit" value="Submit">
+          </div>         
+          <div class ="li-info" style="display: flex;">
+           <h6>Items</h6>
+           <button class="i-btn">
+              <i class="material-icons" id ="arrow">play_arrow</i>
+            </button>
+          </div>
+          
+          <ul class="ul1">
+              <li class="list1">Item 1</li>
+              <li class="list1">Item 2</li>
+              <li class="list1">Item 3</li>
+              <li class="list1">item 4</li>
+              <li class="list1">Item 1</li>
+              <li class="list1">Item 2</li>
+              <li class="list1">Item 3</li>
+              <li class="list1">item 4</li>
+              <li class="list1">item 4</li>             
+              <li class="list1">item 4</li>
+              <li class="list1">item 4</li>
+              <li class="list1 last-li">Item 5</li>
+          </ul>
+        </div>  
+ <!----------------SideBar-------------------------------> 
+        <div class="side-bar">
+          <button class="sidebar-col">
+            <i class="material-icons" id="clear">clear</i>
+          </button>
+
+          <div class="links-con" s>
+            <a href="#">Article 1</a>
+            <a href="#">Article 2</a>
+            <a href="#">Article 3</a>
+            <a href="#">Article 4</a>
+            <a href="#">Article 5</a>
+            <a href="#">Article 6</a>
+           
+          </div>
+          <!---
+          <div class="box1"><a href="#">Article 1</a></div>
+          <div class="box1"><a href="#">Article 2</a></div>  
+          <div class="box1"><a href="#">Article 3</a></div>
+          <div class="box1"><a href="#">Article 4</a></div>  
+          <div class="box1"><a href="#">Article 5</a></div>
+          <div class="box1"><a href="#">Article 6</a></div>-->
+          <ul class="side-bar-icons">
+            <li>
+                <i class="fab fa-facebook"></i>
+            </li>
+            <li>
+                <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+                <i class="fab fa-behance"></i>
+            </li>
+            <li>
+                <i class="fab fa-linkedin"></i>
+            </li>
+            <li>
+                <i class="fab fa-sketch"></i>
+            </li>
+          </ul>         
+        </div>              
+ <!---------------Colorflipper----------------------->      
+       
+        <div class="container">
+          <h2>background color:
+
+            <span class="color">#f1f5f8</span></h2>
+          <button class="btn btn-hero" id="btn">Click Me</button>
+        </div>
+<!---------------------Counter-------------------------->        
+        <div class="container1">
+          <h1>Counter</h1>
+          <span id="value" class="span-d">0</span>
+          <div class="button-container">
+            <button class="btn1 decrease">DECREASE</button>
+            <button class="btn1 reset">RESET</button>
+            <button class="btn1 increase">INCREASE</button>
+          </div>
+        </div>
+<!---------------------Reviews-------------------------->        
+        <div class="review">
+          <div class = "title">
+            <h3>Our Reviews</h3>
+            <div class="line"></div>
+          </div>
+          <div class="review-info">
+            <div class="img-container">
+              <div class="img-con"><img src="person-1.jpeg" class="img1" id="person-img" alt="yomna"></div>
+              <i id = "icon" class="material-icons" style="font-size:36px">format_quote</i>
+            </div>
+            <h5 id="author">Sara Jones</h5>
+            <p class="job" id="job">UX DESIGNER</p>
+            <p class="info"id="info" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores debitis incidunt, eius earum ipsam cupiditate libero? Iste, doloremque nihil?
+
+            </p>
+            <div class="button-container1">
+              <button class="prev-btn">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="next-btn">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <!-- random button -->
+            <button class="random-btn">surprise me</button>
+          </div>
+        </div>
+      </main>
+    <!-- javascript -->
+    <script src="script1.js"></script>
+  </body>
+</html>
